@@ -4,7 +4,11 @@
 
 Model Performance Comparison (FNN,BPTT,LSTM,GRU)
 For comparing model performance across different networks we will consider 2 types of comparison :
+
+
 1.Qualitative(Least MSE) : Determining which model reaches a competitive MSE across when trained across same number of epochs and batch size. The modelcoverging faster to the minimum mse will be rated higher.
+
+
 2.Computational Effort : The model taking lesser amount of time to build, resulting lesser mse score will be rated higher in this type.
 We will decide the best model for this problem statement based on the tradeoff between the above two scenarios
 
